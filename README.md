@@ -13,7 +13,7 @@ For this project, I will perform an analysis of the King County housing data set
 
 King County is located in the state of Washington in the United States. Washington is a coastal in the Pacific North West, and is part of the greater Seattle area. It is a diverse county, with rural, suburban, and urban areas. The data set included data from 70 different zipcodes.     
 
-![King County Zip Code Map](kc_zip_map.png "King County Zip Code Map")   
+![King County Zip Code Map](https://github.com/christine-egan42/linear-regression-housing-price/blob/d075530dc3464d2c3e5d9c26130ac84bdd6bf853/images/kc_zip_map.png)   
 
 In this data set, I was provided with the following features:   
 * id (a unique identification number for each home)
@@ -85,11 +85,11 @@ Some features were eliminated.
 
 #### Collinearity Check
 The final features were tested for multicollinearity using a correlation matrix and heatmap.
-![Correlation Matrix Heat Map](corr_matrix.png "Correlation Matrix Heat Map")
+![Correlation Matrix Heat Map](https://github.com/christine-egan42/linear-regression-housing-price/blob/d075530dc3464d2c3e5d9c26130ac84bdd6bf853/images/corr_matrix.png)
 
 ## 3. Modeling Data & Interpreting Data
 Finally, the resulting data frame was trained and tested with an 70/30 split using OLS statsmodels.
-![ols](ols.png "Correlation Matrix Heat Map") 
+![ols](https://github.com/christine-egan42/linear-regression-housing-price/blob/d075530dc3464d2c3e5d9c26130ac84bdd6bf853/images/ols.png) 
 
 
 #### R-Squared/Adjusted R-Squared
@@ -107,11 +107,11 @@ The t-values all seem high enough, with the sqft_living t-value being particular
 
 #### Satisfying the Assumptions of Linear Regression
 The data appears to be normally distributed.    
-![qqplot](qqplot.png "QQ Plot") 
-![displot](displot.png "Distplot")     
+![qqplot](https://github.com/christine-egan42/linear-regression-housing-price/blob/d075530dc3464d2c3e5d9c26130ac84bdd6bf853/images/qqplot.png) 
+![displot](https://github.com/christine-egan42/linear-regression-housing-price/blob/d075530dc3464d2c3e5d9c26130ac84bdd6bf853/images/displot.png)     
 
 Homoscedacity seems to be fairly neutral based on the scatterplot.      
-![regplot](regplot.png "Regplot")
+![regplot](https://github.com/christine-egan42/linear-regression-housing-price/blob/d075530dc3464d2c3e5d9c26130ac84bdd6bf853/images/regplot.png)
 
 ## 4. Conclusions and Future Work
 
