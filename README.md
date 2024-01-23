@@ -1,4 +1,4 @@
-# What Makes a House a Home in King County Washington?
+# Housing Prices in King County, Washington
 **A Linear Regression Model to Predict the Price of a Home**    
 
 
